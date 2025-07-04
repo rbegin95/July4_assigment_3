@@ -20,6 +20,7 @@ It’s the perfect way to make your hotel feel **alive**!
 ## Table of Contents
 
 - [Features](#features)
+- [Known Issue](#issues)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Contributors](#contributors)
@@ -35,6 +36,28 @@ It’s the perfect way to make your hotel feel **alive**!
 ✅ Easy integration into Habbo retro CMS  
 ✅ Customizable NPC appearances and names  
 ✅ Event triggers based on user actions
+
+--- 
+
+## Known Issues
+
+- NPC sometimes walks into walls and gets stuck
+- Conversation bubbles overlap when too many NPCs talk at once
+- NPC pathfinding occasionally causes jittery movements
+- NPC randomly disappears from the room under heavy server load
+- NPC accidentally blocks doors, preventing users from leaving the room
+- Delayed responses if the AI API is rate-limited
+- NPC ignores movement scripts and stands still indefinitely
+- NPC accidentally repeats the same line several times
+- Performance slows down when spawning more than 20 NPCs in a single room
+- Error thrown if NPC’s appearance string is empty or invalid
+- NPC starts speaking in all caps for no apparent reason
+- Random PHP fatal error when saving very long conversation scripts
+- NPCs sometimes appear wearing default clothes instead of assigned outfits
+- NPC accidentally interrupts user conversations with random comments
+- Room loading times increase when too many NPCs are spawned
+- NPC randomly tries to leave the hotel permanently (logs show “Goodbye cruel world!”)
+
 
 ---
 
