@@ -22,8 +22,6 @@ It’s the perfect way to make your hotel feel **alive**!
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Known Bugs](#known-bugs)
 - [Contributors](#contributors)
 - [License](#license)
 
@@ -56,5 +54,37 @@ It’s the perfect way to make your hotel feel **alive**!
 
 Clone the repo:
 
-```bash
-git clone https://github.com/yourusername/July4_Assignment_3.git
+```git clone https://github.com/yourusername/July4_Assignment_3.git```
+
+CD into the repo
+
+```cd July4_Assignment_3```
+
+Install Composer 
+
+```composer install```
+
+Install Front-End Dependencies
+
+```npm install```
+```npm run build```
+
+Create .env file 
+
+```cp .env.example .env```
+
+Serve the Application 
+
+```php artisan serve```
+
+---
+
+## Contributors
+
+- **Chunk** ([@chunk082](https://github.com/rbegin95))
+
+---
+
+## License
+
+PixelPals is released under the MIT License. See the LICENSE file for more details.
