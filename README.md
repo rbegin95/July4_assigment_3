@@ -20,7 +20,7 @@ It’s the perfect way to make your hotel feel **alive**!
 ## Table of Contents
 
 - [Features](#features)
-- [Known Issue](#issues)
+- [Known Issue](#known-issues)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Contributors](#contributors)
